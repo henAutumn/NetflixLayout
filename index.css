@@ -1,167 +1,61 @@
-
 body {
     font-family: 'Bebas Neue W01 Regular';
-    letter-spacing: 1px;
-}
-h1{
-    color:red;
-    /* margin-left: 1.3em; */
-    font-size: 2.5em;
-    margin-block-start: 0.0em;
-    margin-block-end: 0.0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    width: 15;
-    text-align: right;     
-
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
- ul{
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-  
-}
-    li{
-        display: inline;
-        position: relative;
-    }
-#main{
-    display: grid;
-    grid-template-columns: 1fr 6fr 2fr;
-    margin-top: 20px;
-}
-#nav1{
-    padding-top: 1em;
-    text-align: left;
-}
-#nav2{
-    text-align: right;
-    padding-top: 1em;
-}
- .list2{
-    padding-left: 2em;
-}
-.list1{
-    font-size: 18px;
-    padding-left: 5px;
+#logo {
+    float: left;
+    display: inline-block;
+    color: red;
 }
 
-/* Character Circle Row */
-#circleRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 60px 0px 60px;
-}
-.circles{
-    position: relative;
-    height: 175px;
-    width: 175px;
-    border-radius: 100px;
-    overflow: hidden;
-    
-
-}
-.circles img{
-    height: inherit;
-    width: inherit;
+#nav {
+    background-color: white;
+    /*turns nav bar white*/
+    color: black;
+    width: 100%;
 }
 
-#circle1{
-/* background-color: #FFBC10; */
-background: linear-gradient(to top, #FFBC10 0%, #FFE25A 100%);
-transition: transform .3s;
-}
-.circle :hover{
-transform: scale(1.5);
-/* transition: transform .3s; */
-    }
-#circle2{
-/* background-color: #FF6305;  */
-background: linear-gradient(to top, #FF6305 0%, #FFC39F 100%);
-
-}#circle3{
-/* background-color: #C0E346; */
-background: linear-gradient(to top, #A4D00B 0%, #CEEC64 100%);
-}
-#circle4{
-    /* background-color: #4FE2EF;  */
-    background: linear-gradient(to top, #02C7D9 0%, #84F5FF 100%);
-}
-#circle5{
-    /* background-color: #FFCB2D ; */
-    background: linear-gradient(to top, #E156FF 0%, #EEA0FF 100%);
-}
-#circle6{
-    /* background-color: #FFCB2D ; */
-    background: linear-gradient(to top, #FFB502 0%, #FFE159 100%);
+.nav {
+    float: left;
+    list-style: none;
+    /*gets rid of bullet points*/
+    /* text-align: left; */
+    /*padding: 0px -10px 0px -10px; */
+    margin: 0;
+    margin-top: 18px;
 }
 
-/* Continue Row */
-#continueRow{
-    display: flex;
-    flex-direction: row;
-    padding: 10px 0px 0px 60px;
-}
-#watchRow{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 40px 0px 60px;
+.navTwo {
+    float: right;
+    list-style: none;
+    margin: 0;
+    margin-top: 18px;
 }
 
-#continueRow p{
-    font-size: 1.3rem;
-    display: block;
-    margin-block-start: 1.5em;
-    margin-block-end: 0.4em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.img img{
-    height: 127px;
-    object-fit: cover;
+.nav li {
+    display: Inline-block;
+    padding: 10px 9px 10px 9px;
+     /*nav bar text */
 }
 
-/* Trucks Row */
-#trainsAndTrucks{
-    display: flex;
-    flex-direction: row;
-    padding: 80px 0px 0px 60px;
-}
-#watchRow2{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 40px 0px 60px;
-}
-#trainsAndTrucks p{
-    font-size: 1.3rem;
-    display: block;
-    margin-block-start: 1.5em;
-    margin-block-end: 0.4em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.navTwo li {
+    display: inline-block;
+    padding: 10px 9px 10px 9px; 
 }
 
+.nav li a {                                               
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px
+}
 
-/*
-#submain{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 60px;
-    width: 85%;
-    margin-left:15%;
+.navTwo li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
 }
-#main{
-    display: inline;
-    flex-direction: row;
-   
-}
-#nav1{
-    display: block; 
-} */
+
