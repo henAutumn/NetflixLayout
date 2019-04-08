@@ -11,6 +11,7 @@ h1{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     width: 15;
+    text-align: right;     
 
 }
 
@@ -29,11 +30,58 @@ h1{
     grid-template-columns: 1fr 6fr 2fr;
     margin-top: 20px;
 }
-/*.list1{
-    display: inline;
-    position: relative;
+#nav1{
+    padding-top: 1em;
+    text-align: left;
 }
+#nav2{
+    text-align: right;
+    padding-top: 1em;
+}
+ .list2{
+    padding-left: 2em;
+}
+.list1{
+    font-size: 18px;
+    padding-left: 5px;
+}
+#circleRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 60px 0px 60px;
+}
+.circles{
+    position: relative;
+    height: 175px;
+    width: 175px;
+    border-radius: 100px;
+}
+#circle1{
+/* background-color: #FFBC10; */
+background: linear-gradient(to top, #FFBC10 0%, #FFE25A 100%);
+}
+#circle2{
+/* background-color: #FF6305;  */
+background: linear-gradient(to top, #FF6305 0%, #FFC39F 100%);
 
+}#circle3{
+/* background-color: #C0E346; */
+background: linear-gradient(to top, #A4D00B 0%, #CEEC64 100%);
+}
+#circle4{
+    /* background-color: #4FE2EF;  */
+    background: linear-gradient(to top, #02C7D9 0%, #84F5FF 100%);
+}
+#circle5{
+    /* background-color: #FFCB2D ; */
+    background: linear-gradient(to top, #E156FF 0%, #EEA0FF 100%);
+}
+#circle6{
+    /* background-color: #FFCB2D ; */
+    background: linear-gradient(to top, #FFB502 0%, #FFE159 100%);
+}
+/*
 #submain{
     display: flex;
     flex-direction: row;
