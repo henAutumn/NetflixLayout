@@ -20,12 +20,21 @@ ul {
     list-style-type: none;
     margin: 0%;
     padding: 0%;
+    font-size: 18px;
 
 }
 
 li {
     display: inline;
     position: relative;
+    margin-right: 8px;
+}
+
+.exitKids{
+    background-color: red;
+    color: white;
+    padding: 8.5px;
+    font-size: 16px;
 }
 
 #main {
@@ -35,13 +44,14 @@ li {
 }
 
 #nav1 {
-    padding-top: 1em;
+    padding-top: .7em;
     text-align: left;
 }
 
 #nav2 {
     text-align: right;
-    padding-top: 1em;
+    margin-right: 3em;
+    padding-top: .7em;
 }
 
 .list2 {
@@ -49,8 +59,8 @@ li {
 }
 
 .list1 {
-    font-size: 18px;
-    padding-left: 5px;
+    margin-left: 3em;
+    color: red;
 }
 
 /* Character Circle Row */
@@ -144,19 +154,41 @@ li {
 #continueRow {
     display: flex;
     flex-direction: row;
-    padding: 10px 0px 0px 60px;
+    padding: 10px 0px 0px 70px;
 }
 
 #watchRow {
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 40px 0px 60px;
+    /* justify-content: space-between; */
+    padding: 0px 40px 0px 70px;
+    transition: 1s transform;
+}
+
+#watchRow:hover {
+    transform: translate3d(-45px, 0, 0);
+}
+
+#watchRow .img {
+    transition: 1s transform;
+    transform-origin: top left;
+    /* margin-right: 5px; */
+    box-sizing: border-box;
+    height: 80px;
+    width: 290px;
+}
+
+.img:hover {
+    transform: scale(1.4);
+}
+
+.img:hover ~ .img {
+    transform: translate3d(115px, 0, 0);
 }
 
 #continueRow p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     display: block;
     margin-block-start: 1.5em;
     margin-block-end: 0.4em;
@@ -165,7 +197,7 @@ li {
 }
 
 .img img {
-    height: 127px;
+    height: 160px;
     object-fit: cover;
 }
 
@@ -180,12 +212,16 @@ li {
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 0px 40px 0px 60px;
 }
 
+#watchRow2 .img {
+    margin-right: 5px;
+}
+
 #trainsAndTrucks p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     display: block;
     margin-block-start: 1.5em;
     margin-block-end: 0.4em;
