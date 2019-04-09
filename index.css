@@ -58,26 +58,30 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 60px 0px 60px;
+     padding: 0px 50px 0px 50px; 
 }
 
 .circles {
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     border-radius: 100px;
     overflow: hidden;
+    padding: 0px 6px 6px 0px;
 }
 
 .circles img {
     height: inherit;
     width: inherit;
+    position: relative;
+    top: 15px;
+    left: 2px;
 }
 
 
 /* CIRCLE 1 */
 #circle1:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -88,7 +92,7 @@ li {
 /* CIRCLE 2 */
 
 #circle2:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -99,7 +103,7 @@ li {
 /* CIRCLE 3 */
 
 #circle3:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -110,7 +114,7 @@ li {
 /* CIRCLE 4 */
 
 #circle4:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -121,7 +125,7 @@ li {
 /* CIRCLE 5 */
 
 #circle5:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -132,7 +136,7 @@ li {
 /* CIRCLE 6 */
 
 #circle6:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform .3s;
 }
 
@@ -170,18 +174,10 @@ li {
 }
 
 /* Trucks Row */
-#trainsAndTrucks {
+#trainsAndTrucks{
     display: flex;
     flex-direction: row;
     padding: 80px 0px 0px 60px;
-}
-
-#watchRow2 {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 40px 0px 60px;
 }
 
 #trainsAndTrucks p {
@@ -192,6 +188,94 @@ li {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+/* Truck Shows  */
+#watchRow2 {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px 0px 60px;
+}
+#watchRow2 :hover{
+    transform: translate3d(-10px, 0, 20px);
+    transition: transform 1s;  
+
+}
+.img:hover{
+     transform: scale(1.2);   
+     transition: transform 1s;  
+}
+.img:hover ~ .img{
+    transform: translate3d(20px, 0, 0);
+    transition: transform 1s;  
+    margin: 0px 10px 0px 10px;
+
+}
+
+/* #img1 img:hover {
+     transform: scale(1.2); 
+    transition-timing-function: ease-in;
+}
+
+#img1 img {
+    transition: transform .3s;
+}
+
+/* img 2 
+
+#img2 img:hover {
+    /* transform: scale(1.2); 
+    transition: transform .3s;
+}
+
+#img2 img{
+    transition: transform .3s;
+}
+
+/* img 3 
+
+#img3 img:hover {
+    /* transform: scale(1.2); 
+    transition: transform .3s;
+}
+
+#img3 img{
+    transition: transform .3s;
+}
+
+/* img 4 
+
+#img4 img:hover {
+    /* transform: scale(1.2); 
+    transition: transform .3s;
+}
+
+#img4 img{
+    transition: transform .3s;
+}
+
+/* img 5 
+
+#img5 img:hover {
+    /* transform: scale(1.2); 
+    transition: transform .3s;
+}
+
+#img5 img{
+    transition: transform .3s;
+}
+
+/* img 6 
+
+#img6 img:hover {
+    /* transform: scale(1.2); 
+    transition: transform .3s;
+}
+
+#img6 img{
+    transition: transform .3s;
+} */
 
 
 /*
